@@ -1,0 +1,8 @@
+node_modules/
+
+# Ignore artifacts:
+dist/
+public/
+__mocks__/
+
+*.d.ts

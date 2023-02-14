@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "dev": "concurrently \"cd server && yarn dev\" \"cd graphql && yarn dev\" \"cd web && yarn dev\""
+  }
+}

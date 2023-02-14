@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext", "scripthost"],
+    "newLine": "LF",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": false,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "sourceMap": true,
+    "types": ["solid-js", "vite/client", "node"],
+    "preserveSymlinks": false
+  },
+  "exclude": ["node_modules", "./dist"],
+  "include": ["./src", "vite.config.ts", "package.json"]
+}

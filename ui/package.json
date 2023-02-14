@@ -1,0 +1,68 @@
+{
+  "name": "music-app-ui",
+  "version": "1.0.0",
+  "description": "Music App Design System",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "storybook": "storybook dev -p 6006"
+  },
+  "keywords": [
+    "music",
+    "app",
+    "ui",
+    "design"
+  ],
+  "author": "Görkem Tosun<grkkmm1@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "solid-js": "^1.4.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.19",
+    "@storybook/addon-interactions": "^7.0.0-beta.19",
+    "@storybook/addon-links": "^7.0.0-beta.19",
+    "@storybook/blocks": "^7.0.0-beta.19",
+    "@storybook/html": "^7.0.0-beta.19",
+    "@storybook/html-vite": "^7.0.0-beta.19",
+    "@types/lodash.merge": "^4.6.7",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^9.0.0",
+    "eslint-plugin-solid": "^0.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "solid-js": "^1.6.9",
+    "storybook": "^7.0.0-beta.19",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "vite-plugin-dts": "^1.7.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
+    "@stitches/core": "^1.2.8",
+    "lodash.merge": "^4.6.2",
+    "solid-stitches": "^1.2.27"
+  }
+}

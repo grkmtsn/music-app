@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["es2020"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "src/",
+    "types": ["node"],
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "isolatedModules": true
+  },
+  "ts-node": {
+    "esm": true,
+    "files": true,
+    "compilerOptions": {
+      "isolatedModules": true
+    }
+  }
+}

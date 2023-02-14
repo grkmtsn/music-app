@@ -1,0 +1,26 @@
+{
+  "name": "music-app-web",
+  "version": "0.0.0",
+  "description": "Music App Web",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vite": "^4.0.3",
+    "vite-plugin-external": "^1.2.8",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.7.0",
+    "@urql/core": "^3.1.1",
+    "@urql/exchange-auth": "^1.0.0",
+    "graphql": "^16.6.0",
+    "solid-js": "^1.6.6",
+    "solid-toast": "^0.4.0"
+  }
+}
